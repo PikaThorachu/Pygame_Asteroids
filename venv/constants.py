@@ -1,5 +1,10 @@
+import pygame
+import os
+
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
+
+SCORE_FONT = pygame.font.SysFont('comicsans', 40)
 
 ASTEROID_MIN_RADIUS = 20
 ASTEROID_KINDS = 3
